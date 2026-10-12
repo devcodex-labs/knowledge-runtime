@@ -5,13 +5,13 @@
 
 Knowledge Runtime 是面向 Node.js 生态的独立知识基础设施，规划通过融合向量检索、关键词与全文检索、知识图谱和混合检索，提供可关联、可追溯、可扩展的知识管理与检索能力，并支持 GraphRAG。
 
-当前仓库处于项目初始化阶段，包含项目定位文档和许可证。下述能力属于项目规划，具体实现与 API 将在后续开发中确定。
+当前项目处于初始化阶段。`0.0.1` 为初始文档包，仅包含项目定位、许可证和 npm 包元数据，尚不提供运行时实现或可调用 API。下述能力属于项目规划，具体实现与 API 将在后续开发中确定。
 
 | 项目 | 内容 |
 |---|---|
 | 名称 | Knowledge Runtime |
 | 仓库 | [devcodex-labs/knowledge-runtime](https://github.com/devcodex-labs/knowledge-runtime) |
-| npm 包名 | `@devcodex/knowledge-runtime`（规划） |
+| npm 包名 | `@devcodex/knowledge-runtime` |
 | 技术语言 | Node.js / TypeScript（规划） |
 | 类型 | 独立知识基础设施 |
 | 许可证 | [AGPL-3.0-or-later](./LICENSE) |
@@ -129,7 +129,9 @@ Knowledge Runtime 不依赖这些运行时，也不承担它们的职责。
 
 项目计划提供统一的 Node.js / TypeScript API，允许调用方选择独立或混合检索，并按需读取知识。具体 API 与技术选型在后续开发中确定。
 
-npm 包名规划为 `@devcodex/knowledge-runtime`。发布方向为版本 tag 推送后经验证自动发布 npm，正式版与预发布版使用独立通道。当前初始化阶段尚未配置发布工作流，也未发布 npm 包。
+npm 包名为 `@devcodex/knowledge-runtime`，初始版本为 `0.0.1`，用于分发项目定位和许可证。当前版本不包含运行时功能。
+
+后续发布方向为版本 tag 推送后经验证自动发布 npm，正式版与预发布版使用独立通道。当前尚未配置自动发布工作流。
 
 ## 许可证
 
